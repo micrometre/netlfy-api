@@ -1,0 +1,22 @@
+{
+  "name": "netlfy-api",
+  "version": "1.0.0",
+  "description": "netlfy serverless api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micrometre/netlfy-api.git"
+  },
+  "author": "Henok",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micrometre/netlfy-api/issues"
+  },
+  "homepage": "https://github.com/micrometre/netlfy-api#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
