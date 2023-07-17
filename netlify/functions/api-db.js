@@ -1,4 +1,4 @@
-const data = require('../../public/db.json')
+const data = require('../../data/db.json')
 const headers = {
     'content-type': 'application/json' ,
     'Access-Control-Allow-Origin': "*"

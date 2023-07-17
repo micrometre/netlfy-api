@@ -1,0 +1,19 @@
+{
+	"geolocation": {
+		"data": {
+			"city": "Liverpool",
+			"country": {
+				"code": "GB",
+				"name": "United Kingdom"
+			},
+			"subdivision": {
+				"code": "ENG",
+				"name": "England"
+			},
+			"timezone": "Europe/London",
+			"latitude": 53.4113,
+			"longitude": -2.9759
+		},
+		"timestamp": 1689563238476
+	}
+}

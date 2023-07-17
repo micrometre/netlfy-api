@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": ["../../home/tux/repos/netlfy-api/netlify/functions/api-db.js"],
+  "sourceRoot": "/tmp/tmp-5022-IjSWoLzGJ4aJ",
+  "sourcesContent": ["const data = require('../../data/db.json')\nconst headers = {\n    'content-type': 'application/json' ,\n    'Access-Control-Allow-Origin': \"*\"\n};\n\nexports.handler = async () => {\n    return {\n        body: JSON.stringify(data),\n        statusCode: 200,\n        headers: headers\n    }\n}"],
+  "mappings": ";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA,IAAM,OAAO;AACb,IAAM,UAAU;AAAA,EACZ,gBAAgB;AAAA,EAChB,+BAA+B;AACnC;AAEA,QAAQ,UAAU,YAAY;AAC1B,SAAO;AAAA,IACH,MAAM,KAAK,UAAU,IAAI;AAAA,IACzB,YAAY;AAAA,IACZ;AAAA,EACJ;AACJ;",
+  "names": []
+}
