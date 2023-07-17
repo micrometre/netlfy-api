@@ -1,8 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../home/tux/repos/netlfy-api/netlify/functions/hello-world.js"],
-  "sourceRoot": "/tmp/tmp-5022-TMMo6e8KslA1",
-  "sourcesContent": ["export const handler = async () => {\n    return {\n      statusCode: 200,\n      body: JSON.stringify({\n        message: 'Hello World!',\n      }),\n    }\n  }"],
-  "mappings": ";;;;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAO,IAAM,UAAU,YAAY;AAC/B,SAAO;AAAA,IACL,YAAY;AAAA,IACZ,MAAM,KAAK,UAAU;AAAA,MACnB,SAAS;AAAA,IACX,CAAC;AAAA,EACH;AACF;",
-  "names": []
-}
