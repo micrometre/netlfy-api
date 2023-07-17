@@ -1,7 +1,7 @@
 [build]
+	command = "# no build command"
 	functions = "netlify/functions"
-    command = "npm run build && npm run export"
-    publish = "out"
+	publish = "public"
 
 [functions]
         node_bundler = "esbuild"
